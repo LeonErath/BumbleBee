@@ -1,6 +1,13 @@
 import React from "react";
-import { StyleSheet, Text, View, ScrollView } from "react-native";
-import { Button, Overlay, Card } from "react-native-elements";
+import {
+  StyleSheet,
+  Text,
+  View,
+  ScrollView,
+  ImageBackground,
+  Image
+} from "react-native";
+import { Button, Overlay, Divider } from "react-native-elements";
 import Icon from "react-native-vector-icons/FontAwesome";
 import {
   HelvBoldItalText,
@@ -13,6 +20,7 @@ export default class LifeAnalyseLite extends React.Component {
   constructor() {
     super();
     this.state = {
+      currentStatement: 0,
       counter1: 0,
       counter2: 0,
       counter3: 0,
@@ -130,9 +138,31 @@ export default class LifeAnalyseLite extends React.Component {
     }
   }
 
+  nextStatement = () => {
+    let currentStatement = this.state.currentStatement + 1;
+    if (currentStatement >= this.state.analsis.length) {
+      this.props.navigation.navigate("FinanceScreen");
+    } else {
+      this.setState({ currentStatement: currentStatement });
+    }
+  };
+
   render() {
+    const { currentStatement } = this.state;
+    let image1 = require("../assets/images/Analyse1.png");
+    let image2 = require("../assets/images/Analyse2.png");
+    let image3 = require("../assets/images/Analyse3.png");
+    let image;
+    if (currentStatement === 0) {
+      image = image1;
+    } else if (currentStatement === 1) {
+      image = image2;
+    } else {
+      image = image3;
+    }
+
     return (
-      <ScrollView style={styles.container}>
+      <View style={styles.container}>
         <Overlay
           isVisible={this.state.isVisible}
           onBackdropPress={() => this.setState({ isVisible: false })}
@@ -192,36 +222,71 @@ export default class LifeAnalyseLite extends React.Component {
             />
           </View>
         </Overlay>
-        <HelvBoldItalText style={styles.headline}>
-          Life Analysis
-        </HelvBoldItalText>
 
         {this.state.allAcceppted && (
-          <View>
-            {this.state.analsis != undefined && this.state.analsis.length != 0 && (
-              <View>
-                {this.state.analsis.map(item => (
-                  <View>
-                    <Text style={styles.resultText}>{item.text} </Text>
-                  </View>
-                ))}
-              </View>
-            )}
-          </View>
+          <ImageBackground
+            source={image}
+            style={{ height: "100%", width: "100%" }}
+          >
+            <HelvBoldItalText style={styles.headline}>
+              Life Analysis
+            </HelvBoldItalText>
+            <View style={{ marginTop: 240 }}>
+              {this.state.analsis != undefined &&
+                this.state.analsis.length != 0 && (
+                  <Text style={styles.resultText}>
+                    {this.state.analsis[this.state.currentStatement].text}{" "}
+                  </Text>
+                )}
+
+              <Button
+                onPress={() => this.nextStatement()}
+                containerStyle={styles.buttonContainer}
+                buttonStyle={styles.buttonNext}
+                type={"outline"}
+                title={
+                  this.state.currentStatement >= 3
+                    ? "Add Financial Analysis"
+                    : "Next Statement"
+                }
+              />
+            </View>
+          </ImageBackground>
         )}
-      </ScrollView>
+      </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
+  header: {
+    fontSize: 16,
+    marginLeft: 16,
+    marginBottom: 8,
+    marginTop: 8
+  },
+
+  buttonContainer: {
+    marginBottom: 20,
+    marginTop: 16,
+    alignItems: "center",
+    color: "#000"
+  },
+  buttonNext: {
+    width: 200,
+    backgroundColor: "#fff",
+    color: "#000"
+  },
+
   cardView: {},
   resultText: {
-    fontSize: 20,
+    fontSize: 18,
     marginBottom: 16,
     marginLeft: 16,
     marginRight: 16,
-    lineHeight: 24
+    lineHeight: 24,
+    textAlign: "center",
+    color: "#fff"
   },
 
   headline: {
@@ -230,7 +295,7 @@ const styles = StyleSheet.create({
     fontSize: 40,
     width: "100%",
     textAlign: "center",
-    color: "#4D4F5C"
+    color: "#fff"
   },
 
   subline: {
@@ -257,7 +322,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
 
-    paddingTop: 15,
-    backgroundColor: "#fff"
+    paddingTop: 15
   }
 });

@@ -95,8 +95,13 @@ export default class EntryQuiz extends React.Component {
     console.log(sum, endsum, result);
 
     this.props.navigation.navigate("QuizResult", {
-      score: endsum * 100,
-      text: result
+      score: Math.round(endsum * 100),
+      text: result,
+      var1: var1,
+      var2: var2,
+      var3: var3,
+      var4: var4,
+      var5: var5
     });
   }
 

@@ -7,16 +7,24 @@ import SettingsScreen from "../screens/SettingsScreen";
 import EntryQuiz from "../screens/EntryQuiz";
 import QuizResult from "../screens/QuizResult";
 import LifeAnalyseLite from "../screens/LifeAnalyseLite";
+import ConvinceScreen from "../screens/Convince";
+import FinanceScreen from "../screens/FinanceScreen";
+import CalculateScreen from "../screens/CalculateScreen";
+import SaldoScreen from "../screens/SaldoScreen";
+import GoalScreen from "../screens/GoalScreen";
 
 export default createAppContainer(
   createSwitchNavigator({
-    // You could add another route here for authentication.
-    // Read more at https://reactnavigation.org/docs/en/auth-flow.html
     Main: HomeScreen,
     LinkScreen: LinkScreen,
     SettingsScreen: SettingsScreen,
     EntryQuiz: EntryQuiz,
     QuizResult: QuizResult,
-    LifeAnalyseLite: LifeAnalyseLite
+    LifeAnalyseLite: LifeAnalyseLite,
+    ConvinceScreen: ConvinceScreen,
+    FinanceScreen: FinanceScreen,
+    CalculateScreen: CalculateScreen,
+    SaldoScreen: SaldoScreen,
+    GoalScreen: GoalScreen
   })
 );

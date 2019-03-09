@@ -10,11 +10,10 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "../assets/images/BumbleBee.png",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "../assets/images/LoginBackground.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

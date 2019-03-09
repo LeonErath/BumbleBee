@@ -51,18 +51,22 @@ app.get("/getLifeAnalysisLite", function(req, res) {
   respose.statements = [
     {
       text:
-        "Liebe Julia du verbringst mehr Zeit auf der Arbeit als Zuhause. Insgesamt arbeitest du mehr als 4,6% der Deutschen."
+        "Liebe Julia du verbringst mehr Zeit auf der Arbeit als Zuhause. Insgesamt arbeitest du mehr als 4,6% der Deutschen.",
+      image: "../assets/images/Analyse1.png"
     },
     {
-      text: "Du trennst berufliches und privates stark voneinander."
+      text: "Du trennst berufliches und privates stark voneinander.",
+      image: "../assets/images/Analyse2.png"
     },
     {
       text:
-        "Familie und Freunde sind dir am wichtigsten daher verbringst du 4 Stunden die Woche mit Ihnen."
+        "Familie und Freunde sind dir am wichtigsten daher verbringst du 4 Stunden die Woche mit Ihnen.",
+      image: "../assets/images/Analyse3.png"
     },
     {
       text:
-        "Deine Freizeit verbringst du am liebsten mit Shopping und Beaty Mit Beauty verbringst du 2,2 Stunden die Woche mit Shopping  2,7 Stunden. Am liebsten shoppst du Zuhause (Online Shopping) manchmal gehst du aber auch in Läden und probierst die Klamotten noch aus"
+        "Deine Freizeit verbringst du am liebsten mit Shopping und Beaty Mit Beauty verbringst du 2,2 Stunden die Woche mit Shopping  2,7 Stunden. Am liebsten shoppst du Zuhause (Online Shopping) manchmal gehst du aber auch in Läden und probierst die Klamotten noch aus",
+      image: "../assets/images/Analyse3.png"
     }
   ];
   res.json(respose);
