@@ -6,6 +6,7 @@ import LinkScreen from "../screens/LinksScreen";
 import SettingsScreen from "../screens/SettingsScreen";
 import EntryQuiz from "../screens/EntryQuiz";
 import QuizResult from "../screens/QuizResult";
+import LifeAnalyseLite from "../screens/LifeAnalyseLite";
 
 export default createAppContainer(
   createSwitchNavigator({
@@ -15,6 +16,7 @@ export default createAppContainer(
     LinkScreen: LinkScreen,
     SettingsScreen: SettingsScreen,
     EntryQuiz: EntryQuiz,
-    QuizResult: QuizResult
+    QuizResult: QuizResult,
+    LifeAnalyseLite: LifeAnalyseLite
   })
 );

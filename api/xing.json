@@ -1,0 +1,345 @@
+{
+    "users": [
+      {
+        "id": "10977497_abd333",
+        "academic_title": null,
+        "active_email": null,
+        "badges": [],
+        "birth_date": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "business_address": {
+          "street": null,
+          "zip_code": null,
+          "city": "Augsburg",
+          "province": "Bayern",
+          "country": "DE",
+          "email": null,
+          "fax": null,
+          "phone": null,
+          "mobile_phone": null
+        },
+        "display_name": "Melanie Schneider",
+        "educational_background": {
+          "degree": "Diplom Kauffrau",
+          "primary_school": null,
+          "schools": [
+            {
+              "name": "Universität Augsburg",
+              "subject": "Logistics & Information",
+              "degree": "Diplom-Kauffrau",
+              "begin_date": "2003-10",
+              "end_date": "2008-10",
+              "notes": null,
+              "id": "1_7cab26"
+            },
+            {
+              "name": "Berufsschule Augsburg",
+              "subject": "IT-Systemkauffrau",
+              "degree": null,
+              "begin_date": "2000-09",
+              "end_date": "2003-02",
+              "notes": null,
+              "id": "2_1d9d65"
+            }
+          ],
+          "qualifications": [
+            "Schwerpunkte: Produktion & Logistik, Umweltmanagement, Wirtschaftsinformatik"
+          ]
+        },
+        "employment_status": "EMPLOYEE",
+        "first_name": "Melanie",
+        "gender": "f",
+        "haves": "Erfahrung in der Gehaltsabrechnung, Zeitwertkonten, Mutterschutz/Elternzeit, Steuer- und Sozialversicherungsrecht, Ansprechpartner für externe Stellen, Projektmitarbeit, Effiziente Personalprozesse, Erstellung von Auswertungen und Statistiken, Kenntnisse aus dem Bereich E-Commerce:  B2B (elektronische Beschaffungsmöglichkeiten, Projekterfahrung im E-Businessbereich, Einkommensteuer",
+        "instant_messaging_accounts": {},
+        "interests": "Fitnesstraining, Klettern, Wandern, Berge, Tauchen",
+        "languages": {
+          "de": "NATIVE",
+          "en": "FLUENT",
+          "fr": "BASIC"
+        },
+        "last_name": "Schneider",
+        "legal_information": {
+          "preview_content": null
+        },
+        "organisation_member": null,
+        "page_name": "Melanie_Schneider45",
+        "permalink": "https://www.xing.com/profile/Melanie_Schneider45",
+        "photo_attributes": {
+          "uploaded": true
+        },
+        "photo_urls": {
+          "large": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.140x185.jpg",
+          "maxi_thumb": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.70x93.jpg",
+          "medium_thumb": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.57x75.jpg",
+          "mini_thumb": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.18x24.jpg",
+          "thumb": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.30x40.jpg",
+          "size_32x32": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.32x32.jpg",
+          "size_48x48": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.48x48.jpg",
+          "size_64x64": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.64x64.jpg",
+          "size_96x96": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.96x96.jpg",
+          "size_128x128": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.128x128.jpg",
+          "size_192x192": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.192x192.jpg",
+          "size_256x256": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.256x256.jpg",
+          "size_1024x1024": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.1024x1024.jpg",
+          "size_original": "https://www.xing.com/img/users/2/3/5/22d25a709.10977497,7.original.jpg"
+        },
+        "premium_services": [],
+        "private_address": {
+          "street": null,
+          "zip_code": null,
+          "city": null,
+          "province": null,
+          "country": null,
+          "email": null,
+          "fax": null,
+          "phone": null,
+          "mobile_phone": null
+        },
+        "professional_experience": {
+          "primary_company": {
+            "id": "54296328_e7ca62",
+            "name": "Hilti Deutschland AG",
+            "url": null,
+            "tag": "HILTIDEUTSCHLANDGMBH",
+            "title": "HR Specialist Payroll",
+            "begin_date": "2017-01",
+            "end_date": null,
+            "description": null,
+            "discipline": {
+              "id": "1002_5f50c5",
+              "key": "ADMINISTRATION"
+            },
+            "until_now": true,
+            "industry": "CONSTRUCTION",
+            "industries": [
+              {
+                "id": 10200,
+                "localized_name": "Baugewerbe"
+              }
+            ],
+            "company_size": "1001-5000",
+            "career_level": "PROFESSIONAL_EXPERIENCED",
+            "form_of_employment": "FULL_TIME_EMPLOYEE"
+          },
+          "companies": [
+            {
+              "id": "54296328_e7ca62",
+              "name": "Hilti Deutschland AG",
+              "url": null,
+              "tag": "HILTIDEUTSCHLANDGMBH",
+              "title": "HR Specialist Payroll",
+              "begin_date": "2017-01",
+              "end_date": null,
+              "description": null,
+              "discipline": {
+                "id": "1002_5f50c5",
+                "key": "ADMINISTRATION"
+              },
+              "until_now": true,
+              "industry": "CONSTRUCTION",
+              "industries": [
+                {
+                  "id": 10200,
+                  "localized_name": "Baugewerbe"
+                }
+              ],
+              "company_size": "1001-5000",
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": "FULL_TIME_EMPLOYEE"
+            },
+            {
+              "id": "14401005_db545a",
+              "name": "Hilti Deutschland AG",
+              "url": null,
+              "tag": "HILTIDEUTSCHLANDGMBH",
+              "title": "HR Prozess Experte",
+              "begin_date": "2013-06",
+              "end_date": "2016-12",
+              "description": null,
+              "discipline": {
+                "id": "1014_a7098a",
+                "key": "HR"
+              },
+              "until_now": false,
+              "industry": "HUMAN_RESOURCES",
+              "industries": [
+                {
+                  "id": 180000,
+                  "localized_name": "Personaldienstleistungen"
+                }
+              ],
+              "company_size": null,
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": "FULL_TIME_EMPLOYEE"
+            },
+            {
+              "id": "14401006_e74908",
+              "name": "Hilti Deutschland AG",
+              "url": null,
+              "tag": "HILTIDEUTSCHLANDGMBH",
+              "title": "Content Manager Zentraleuropa",
+              "begin_date": "2011-04",
+              "end_date": "2013-05",
+              "description": null,
+              "discipline": null,
+              "until_now": false,
+              "industry": "CONSTRUCTION",
+              "industries": [
+                {
+                  "id": 10200,
+                  "localized_name": "Baugewerbe"
+                }
+              ],
+              "company_size": null,
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": "FULL_TIME_EMPLOYEE"
+            },
+            {
+              "id": "14401007_111633",
+              "name": "Hilti Deutschland AG",
+              "url": null,
+              "tag": "HILTIDEUTSCHLANDGMBH",
+              "title": "B2B Contentmanager",
+              "begin_date": "2008-12",
+              "end_date": "2011-03",
+              "description": null,
+              "discipline": null,
+              "until_now": false,
+              "industry": "CONSTRUCTION",
+              "industries": [
+                {
+                  "id": 10200,
+                  "localized_name": "Baugewerbe"
+                }
+              ],
+              "company_size": null,
+              "career_level": "PROFESSIONAL_EXPERIENCED",
+              "form_of_employment": "FULL_TIME_EMPLOYEE"
+            },
+            {
+              "id": "14401008_8570fb",
+              "name": "J.N. Eberle Federnfabrik GmbH",
+              "url": null,
+              "tag": "J.N.EBERLEFEDERNFABRIKGMBH",
+              "title": "Werkstudentin",
+              "begin_date": "2006-08",
+              "end_date": "2008-10",
+              "description": null,
+              "discipline": null,
+              "until_now": false,
+              "industry": "METAL_METALWORKING",
+              "industries": [
+                {
+                  "id": 40700,
+                  "localized_name": "Metallindustrie und -verarbeitung"
+                }
+              ],
+              "company_size": null,
+              "career_level": null,
+              "form_of_employment": "FULL_TIME_EMPLOYEE"
+            },
+            {
+              "id": "14401009_7a2b33",
+              "name": "Osram GmbH",
+              "url": null,
+              "tag": "OSRAMAG",
+              "title": "Werkstudentin",
+              "begin_date": "2005-03",
+              "end_date": "2005-06",
+              "description": null,
+              "discipline": null,
+              "until_now": false,
+              "industry": "METAL_METALWORKING",
+              "industries": [
+                {
+                  "id": 40700,
+                  "localized_name": "Metallindustrie und -verarbeitung"
+                }
+              ],
+              "company_size": null,
+              "career_level": null,
+              "form_of_employment": "FULL_TIME_EMPLOYEE"
+            }
+          ],
+          "awards": [],
+          "non_primary_companies": [
+            {
+              "_this_is_deprecated_since": "2014-05-08",
+              "name": "Hilti Deutschland AG",
+              "url": null,
+              "tag": "HILTIDEUTSCHLANDGMBH",
+              "title": "HR Prozess Experte",
+              "begin_date": "2013-06",
+              "end_date": "2016-12",
+              "description": null,
+              "industry": "HUMAN_RESOURCES",
+              "company_size": null,
+              "career_level": "PROFESSIONAL_EXPERIENCED"
+            },
+            {
+              "_this_is_deprecated_since": "2014-05-08",
+              "name": "Hilti Deutschland AG",
+              "url": null,
+              "tag": "HILTIDEUTSCHLANDGMBH",
+              "title": "Content Manager Zentraleuropa",
+              "begin_date": "2011-04",
+              "end_date": "2013-05",
+              "description": null,
+              "industry": "CONSTRUCTION",
+              "company_size": null,
+              "career_level": "PROFESSIONAL_EXPERIENCED"
+            },
+            {
+              "_this_is_deprecated_since": "2014-05-08",
+              "name": "Hilti Deutschland AG",
+              "url": null,
+              "tag": "HILTIDEUTSCHLANDGMBH",
+              "title": "B2B Contentmanager",
+              "begin_date": "2008-12",
+              "end_date": "2011-03",
+              "description": null,
+              "industry": "CONSTRUCTION",
+              "company_size": null,
+              "career_level": "PROFESSIONAL_EXPERIENCED"
+            },
+            {
+              "_this_is_deprecated_since": "2014-05-08",
+              "name": "J.N. Eberle Federnfabrik GmbH",
+              "url": null,
+              "tag": "J.N.EBERLEFEDERNFABRIKGMBH",
+              "title": "Werkstudentin",
+              "begin_date": "2006-08",
+              "end_date": "2008-10",
+              "description": null,
+              "industry": "METAL_METALWORKING",
+              "company_size": null,
+              "career_level": null
+            },
+            {
+              "_this_is_deprecated_since": "2014-05-08",
+              "name": "Osram GmbH",
+              "url": null,
+              "tag": "OSRAMAG",
+              "title": "Werkstudentin",
+              "begin_date": "2005-03",
+              "end_date": "2005-06",
+              "description": null,
+              "industry": "METAL_METALWORKING",
+              "company_size": null,
+              "career_level": null
+            }
+          ]
+        },
+        "time_zone": {
+          "utc_offset": 1,
+          "name": "Europe/Berlin"
+        },
+        "top_haves": null,
+        "wants": "Austausch zu Steuer-und Sozialversicherungsrechtl. Themen, Alte und neue Bekannte aus Augsburg, Alte und neue Bekannte aus Landsberg und München, Kontakte aus dem Personalbereich, Kontakte aus dem Coachingbereich, Kletterer aus dem Raum Augsburg/Landsberg/München",
+        "web_profiles": {}
+      }
+    ]
+  }
