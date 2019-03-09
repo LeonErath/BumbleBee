@@ -12,6 +12,9 @@ import FinanceScreen from "../screens/FinanceScreen";
 import CalculateScreen from "../screens/CalculateScreen";
 import SaldoScreen from "../screens/SaldoScreen";
 import GoalScreen from "../screens/GoalScreen";
+import FinanceResults from "../screens/FinanceResults";
+import FinanceResults2 from "../screens/FinanceResults2";
+import EndScreen from "../screens/EndScreen";
 
 export default createAppContainer(
   createSwitchNavigator({
@@ -25,6 +28,9 @@ export default createAppContainer(
     FinanceScreen: FinanceScreen,
     CalculateScreen: CalculateScreen,
     SaldoScreen: SaldoScreen,
-    GoalScreen: GoalScreen
+    GoalScreen: GoalScreen,
+    FinanceResults: FinanceResults,
+    FinanceResults2: FinanceResults2,
+    EndScreen: EndScreen
   })
 );

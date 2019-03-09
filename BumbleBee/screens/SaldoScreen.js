@@ -123,6 +123,8 @@ export default class SaldoScreen extends React.Component {
           </View>
         </View>
         <Button
+          containerStyle={styles.buttonContainer}
+          buttonStyle={styles.buttonStyle}
           onPress={() => this.props.navigation.navigate("GoalScreen")}
           title="Add your Goals!"
         />
@@ -132,6 +134,14 @@ export default class SaldoScreen extends React.Component {
 }
 
 const styles = StyleSheet.create({
+  buttonContainer: {
+    alignItems: "center",
+    paddingBottom: 16
+  },
+  buttonStyle: {
+    width: 200,
+    backgroundColor: "#00387D"
+  },
   section: {
     marginTop: 10,
     fontSize: 30,

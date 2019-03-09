@@ -32,20 +32,14 @@ export default class EndScreen extends React.Component {
       <ScrollView>
         <View style={styles.container}>
           <HelvBoldItalText style={styles.headline}>
-            Choose your Bank
+            Financial Analysis
           </HelvBoldItalText>
 
           <Image
             resizeMode="contain"
-            source={require("../assets/images/BankChoose.png")}
+            source={require("../assets/images/EndScreen.png")}
           />
         </View>
-        <Button
-          containerStyle={styles.buttonContainer}
-          buttonStyle={styles.buttonStyle}
-          onPress={() => this.props.navigation.navigate("SaldoScreen")}
-          title="Continue!"
-        />
       </ScrollView>
     );
   }
@@ -59,14 +53,6 @@ const styles = StyleSheet.create({
     width: "100%",
 
     color: "#4D4F5C"
-  },
-  buttonContainer: {
-    alignItems: "center",
-    paddingBottom: 16
-  },
-  buttonStyle: {
-    width: 200,
-    backgroundColor: "#00387D"
   },
   headline: {
     marginTop: 30,

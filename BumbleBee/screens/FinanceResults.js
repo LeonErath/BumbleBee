@@ -18,7 +18,7 @@ import {
 import DraggableList1 from "../components/draggableList1";
 import DraggableList2 from "../components/draggableList2";
 
-export default class EndScreen extends React.Component {
+export default class FinanceResults extends React.Component {
   constructor() {
     super();
   }
@@ -32,18 +32,18 @@ export default class EndScreen extends React.Component {
       <ScrollView>
         <View style={styles.container}>
           <HelvBoldItalText style={styles.headline}>
-            Choose your Bank
+            Financial Analysis
           </HelvBoldItalText>
 
           <Image
             resizeMode="contain"
-            source={require("../assets/images/BankChoose.png")}
+            source={require("../assets/images/Results.png")}
           />
         </View>
         <Button
           containerStyle={styles.buttonContainer}
           buttonStyle={styles.buttonStyle}
-          onPress={() => this.props.navigation.navigate("SaldoScreen")}
+          onPress={() => this.props.navigation.navigate("FinanceResults2")}
           title="Continue!"
         />
       </ScrollView>
@@ -52,14 +52,6 @@ export default class EndScreen extends React.Component {
 }
 
 const styles = StyleSheet.create({
-  section: {
-    marginTop: 10,
-    fontSize: 30,
-    marginLeft: 20,
-    width: "100%",
-
-    color: "#4D4F5C"
-  },
   buttonContainer: {
     alignItems: "center",
     paddingBottom: 16
@@ -67,6 +59,14 @@ const styles = StyleSheet.create({
   buttonStyle: {
     width: 200,
     backgroundColor: "#00387D"
+  },
+  section: {
+    marginTop: 10,
+    fontSize: 30,
+    marginLeft: 20,
+    width: "100%",
+
+    color: "#4D4F5C"
   },
   headline: {
     marginTop: 30,

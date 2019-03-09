@@ -39,6 +39,13 @@ export default class GoalScreen extends React.Component {
           <DraggableList1 />
           <HelvBoldText style={styles.section}>Variable Costs</HelvBoldText>
           <DraggableList2 />
+
+          <Button
+            containerStyle={styles.buttonContainer}
+            buttonStyle={styles.buttonStyle}
+            title={"See the Results!"}
+            onPress={() => this.props.navigation.navigate("FinanceResults")}
+          />
         </View>
       </ScrollView>
     );
@@ -82,6 +89,14 @@ const styles = StyleSheet.create({
     height: 60,
 
     padding: 10
+  },
+  buttonContainer: {
+    alignItems: "center",
+    paddingBottom: 16
+  },
+  buttonStyle: {
+    width: 200,
+    backgroundColor: "#00387D"
   },
   row: {
     marginTop: 30,
